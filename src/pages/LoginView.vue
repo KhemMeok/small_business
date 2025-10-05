@@ -144,7 +144,7 @@ async function handleLogin() {
               class="block text-surface-900 dark:text-surface-0 text-lg font-medium mb-2"
               >User Type</label
             >
-            <Dropdown
+            <Select
               id="userType"
               v-model="userType"
               :options="userTypes"
