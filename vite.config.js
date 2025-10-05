@@ -10,7 +10,7 @@ import Components from 'unplugin-vue-components/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'small_business',
+  base: '/',
   plugins: [
     vue(),
     vueDevTools(),
