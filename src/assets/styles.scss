@@ -1,0 +1,28 @@
+@use 'primeicons/primeicons.css';
+@use '@/assets/tailwind.css';
+@use '@/assets/layout/layout.scss';
+
+@font-face {
+  font-family: 'GSFont';
+  src:
+    url('../assets/fonts/GoogleSans-Regular.ttf') format('woff2'),
+    url('../assets/fonts/GoogleSans-Regular.ttf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GSMFont';
+  src:
+    url('../assets/fonts/GoogleSans-Medium.ttf') format('woff2'),
+    url('../assets/fonts/GoogleSans-Medium.ttf') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SoraFont';
+  src: url('../assets/fonts/Sora-Regular.woff2');
+}

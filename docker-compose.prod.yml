@@ -1,0 +1,16 @@
+services:
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    container_name: vue-app-prod
+    environment:
+      - NODE_ENV=production
+    ports:
+      - '8004:8004'
+    # Optional: Add resource limits for stability
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2G
