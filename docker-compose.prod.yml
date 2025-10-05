@@ -9,8 +9,8 @@ services:
     ports:
       - '8004:8004'
     # Optional: Add resource limits for stability
-    deploy:
-      resources:
-        limits:
-          cpus: '1.0'
-          memory: 2G
+#    deploy:
+#      resources:
+#        limits:
+#          cpus: '1.0'
+#          memory: 2G
